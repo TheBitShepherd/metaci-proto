@@ -1,8 +1,12 @@
 
+.latest-builds-header {
+    padding-top: 40px;
+}
+
 .statusDiv {
     height: 1.6rem;
     margin: 0 auto;
-    width: 50px;
+    width: 100px;
     border-radius: 15rem;
     color: white;
     background-color: grey;
@@ -17,6 +21,5 @@
 }
 
 .statusDiv.running {
-    width: 100px;
     margin: 0 auto;
 }
