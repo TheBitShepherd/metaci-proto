@@ -1,0 +1,22 @@
+
+.statusDiv {
+    height: 1.6rem;
+    margin: 0 auto;
+    width: 50px;
+    border-radius: 15rem;
+    color: white;
+    background-color: grey;
+}
+
+.statusDiv.error {
+    background-color: #c93a26;
+}
+
+.statusDiv.success {
+    background-color: #0c8a11;
+}
+
+.statusDiv.running {
+    width: 100px;
+    margin: 0 auto;
+}
